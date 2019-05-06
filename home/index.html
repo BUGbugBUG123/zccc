@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>project_frontend</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <ul>
+                    <li class="logo"><img src="../static/eevee.jpg" alt="Logo" width="50px" height="50px"/></li>
+                    <li class="active">Home</li>
+                    <li><a href="../recommend/index.html">Recommended</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li class="lens">search</li>
+                    <li>save a URL</li>
+                    <li>view inbox</li>
+                    <li>log in</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <ul class="siderbar">
+                <li data-type="1" class="active">My list</li>
+                <li data-type="2">Favorites</li>
+                <li data-type="3">Archive</li>
+                <li>-----</li>
+                <li data-type="4">Articles</li>
+                <li data-type="5">Videos</li>
+                <li data-type="6">Images</li>
+                <li data-type="7">Tags</li>
+            </ul>
+            <div class="content">
+                <div id="showTitle">My list</div>
+                <div class="card-box">
+                    <div class="card">
+                        <div class="card-header">
+                                Test TitleTest TitleTest TitleTest TitleTest TitleTest TitleTest Title
+                        </div>
+                        <div class="card-content">
+                            <img src="../static/eevee.jpg">
+                        </div>
+                        <div class="card-footer">
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Test Title
+                        </div>
+                        <div class="card-content">
+                            InfoInfoInfoInfoInfoInfo
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
